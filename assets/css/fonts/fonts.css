@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'champ';
+    src:  url('./Champagne&Limousines.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: 'kiona';
+    src:  url('./Kiona-Regular.ttf') format('truetype');
+ }
+ @font-face {
+    font-family: 'cf';
+    src:  url('./CFAnarchy-Regular.ttf') format('truetype');
+ }
+
+ @font-face {
+    font-family: 'cap';
+    src:  url('./Captureit.ttf') format('truetype');
+ }
+
+ @font-face {
+    font-family: 'norwester';
+    src:  url('./norwester.otf') format('OpenType');
+ }
+
+ @font-face {
+    font-family: 'elianto';
+    src:  url('./Elianto-Regular.ttf') format('truetype');
+ }
+ @font-face {
+    font-family: 'ikaros';
+    src:  url('./Ikaros-Regular.otf') format('OpenType');
+ }
+ @font-face {
+    font-family: 'vermin';
+    src:  url('./VerminorikoAki-YdGj.ttf') format('truetype');
+ }

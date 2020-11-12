@@ -1,0 +1,318 @@
+CRITICAL - 2020-09-15 09:25:26 --> Class 'App\Conntrollers\CodeIgniter' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-15 09:25:55 --> Class 'App\Conntrollers\BaseController' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-15 09:26:25 --> Class 'App\Conntrollers\BaseController' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-15 09:26:37 --> Trait 'App\Controllers\ResponseTrait' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-15 10:14:58 --> Undefined variable: request
+#0 E:\CodingFork\autosarisari\app\Controllers\Sales.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\CodingFork\\a...', 18, Array)
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sales->automplete()
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#6 {main}
+CRITICAL - 2020-09-15 10:14:59 --> Undefined variable: request
+#0 E:\CodingFork\autosarisari\app\Controllers\Sales.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\CodingFork\\a...', 18, Array)
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sales->automplete()
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#6 {main}
+CRITICAL - 2020-09-15 10:15:00 --> Undefined variable: request
+#0 E:\CodingFork\autosarisari\app\Controllers\Sales.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\CodingFork\\a...', 18, Array)
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sales->automplete()
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#6 {main}
+CRITICAL - 2020-09-15 10:15:00 --> Undefined variable: request
+#0 E:\CodingFork\autosarisari\app\Controllers\Sales.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\CodingFork\\a...', 18, Array)
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sales->automplete()
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#6 {main}
+CRITICAL - 2020-09-15 10:19:45 --> Undefined offset: 0
+#0 E:\CodingFork\autosarisari\app\Controllers\Sales.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\CodingFork\\a...', 19, Array)
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sales->automplete()
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#6 {main}
+CRITICAL - 2020-09-15 10:53:34 --> syntax error, unexpected 'foreach' (T_FOREACH)
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\CodingFork\\a...')
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#9 {main}
+CRITICAL - 2020-09-15 10:54:10 --> Trying to get property 'name' of non-object
+#0 E:\CodingFork\autosarisari\app\Controllers\Sales.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\CodingFork\\a...', 23, Array)
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sales->automplete()
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#6 {main}
+CRITICAL - 2020-09-15 10:54:32 --> Trying to get property 'name' of non-object
+#0 E:\CodingFork\autosarisari\app\Controllers\Sales.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\CodingFork\\a...', 23, Array)
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sales->automplete()
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#6 {main}
+CRITICAL - 2020-09-15 10:54:42 --> Trying to get property 'name' of non-object
+#0 E:\CodingFork\autosarisari\app\Controllers\Sales.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\CodingFork\\a...', 23, Array)
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sales->automplete()
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#6 {main}
+CRITICAL - 2020-09-15 13:28:46 --> You must use the "set" method to update an entry.
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 E:\CodingFork\autosarisari\app\Models\CoreModel.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#2 E:\CodingFork\autosarisari\app\Controllers\Sales.php(45): App\Models\CoreModel->insertData(Array, 'batch')
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sales->addCart()
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#8 {main}
+CRITICAL - 2020-09-15 13:41:44 --> Undefined index: offset
+#0 E:\CodingFork\autosarisari\app\Models\CoreModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\CodingFork\\a...', 34, Array)
+#1 E:\CodingFork\autosarisari\app\Controllers\Sales.php(52): App\Models\CoreModel->getData(Array, 'batch')
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sales->addCart()
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#7 {main}
+CRITICAL - 2020-09-15 13:54:00 --> syntax error, unexpected '}'
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\CodingFork\\a...')
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#9 {main}
+CRITICAL - 2020-09-15 13:54:06 --> syntax error, unexpected '}'
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\CodingFork\\a...')
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#9 {main}
+CRITICAL - 2020-09-15 13:54:22 --> Column 'item' cannot be null
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ca...')
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 E:\CodingFork\autosarisari\app\Models\CoreModel.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\CodingFork\autosarisari\app\Controllers\Sales.php(65): App\Models\CoreModel->insertData(Array, 'cart')
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sales->addCart()
+#7 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#11 {main}
+CRITICAL - 2020-09-15 13:54:49 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\CodingFork\\a...', 437, Array)
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\Query.php(437): implode(',', Array)
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\Query.php(404): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `ca...', Array)
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\Query.php(197): CodeIgniter\Database\Query->compileBinds()
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\Query->getQuery()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#6 E:\CodingFork\autosarisari\app\Models\CoreModel.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#7 E:\CodingFork\autosarisari\app\Controllers\Sales.php(65): App\Models\CoreModel->insertData(Array, 'cart')
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sales->addCart()
+#9 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+#10 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#13 {main}
+CRITICAL - 2020-09-15 13:59:43 --> Duplicate entry '8' for key 'PRIMARY'
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ca...')
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 E:\CodingFork\autosarisari\app\Models\CoreModel.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\CodingFork\autosarisari\app\Controllers\Sales.php(56): App\Models\CoreModel->insertData(Array, 'cart')
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sales->addCart()
+#7 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#11 {main}
+CRITICAL - 2020-09-15 14:02:51 --> Undefined index: cart
+#0 E:\CodingFork\autosarisari\app\Controllers\Sales.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\CodingFork\\a...', 72, Array)
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sales->viewCart()
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#6 {main}
+CRITICAL - 2020-09-15 15:08:19 --> Undefined offset: 0
+#0 E:\CodingFork\autosarisari\app\Controllers\Sales.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\CodingFork\\a...', 60, Array)
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sales->addCart()
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#6 {main}
+CRITICAL - 2020-09-15 15:25:02 --> syntax error, unexpected '=', expecting ')'
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\CodingFork\\a...')
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#9 {main}
+CRITICAL - 2020-09-15 15:43:06 --> Undefined index: tprice
+#0 E:\CodingFork\autosarisari\app\Controllers\Sales.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\CodingFork\\a...', 91, Array)
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sales->viewCart()
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#6 {main}
+CRITICAL - 2020-09-15 15:43:06 --> Undefined index: tprice
+#0 E:\CodingFork\autosarisari\app\Controllers\Sales.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\CodingFork\\a...', 91, Array)
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sales->viewCart()
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#6 {main}
+CRITICAL - 2020-09-15 20:26:47 --> Unable to connect to the database.
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\CodingFork\autosarisari\app\Models\CoreModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\CodingFork\autosarisari\app\Controllers\Auth.php(20): App\Models\CoreModel->getData(Array, 'user')
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->handleLogin()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#9 {main}
+CRITICAL - 2020-09-15 20:26:51 --> Unable to connect to the database.
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\CodingFork\autosarisari\app\Models\CoreModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\CodingFork\autosarisari\app\Controllers\Auth.php(20): App\Models\CoreModel->getData(Array, 'user')
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->handleLogin()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#9 {main}
+CRITICAL - 2020-09-15 20:26:56 --> Unable to connect to the database.
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\CodingFork\autosarisari\app\Models\CoreModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\CodingFork\autosarisari\app\Controllers\Auth.php(20): App\Models\CoreModel->getData(Array, 'user')
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->handleLogin()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#9 {main}
+CRITICAL - 2020-09-15 20:28:48 --> Unable to connect to the database.
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\CodingFork\autosarisari\app\Models\CoreModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\CodingFork\autosarisari\app\Controllers\Auth.php(20): App\Models\CoreModel->getData(Array, 'user')
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->handleLogin()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#9 {main}
+CRITICAL - 2020-09-15 20:59:18 --> Undefined offset: 0
+#0 E:\CodingFork\autosarisari\app\Controllers\Admin.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\CodingFork\\a...', 91, Array)
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->getSpecific()
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#6 {main}
+CRITICAL - 2020-09-15 20:59:41 --> Undefined offset: 0
+#0 E:\CodingFork\autosarisari\app\Controllers\Admin.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\CodingFork\\a...', 91, Array)
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->getSpecific()
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#6 {main}
+CRITICAL - 2020-09-15 20:59:59 --> Undefined offset: 0
+#0 E:\CodingFork\autosarisari\app\Controllers\Admin.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\CodingFork\\a...', 91, Array)
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->getSpecific()
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#6 {main}
+CRITICAL - 2020-09-15 21:09:15 --> Undefined offset: 0
+#0 E:\CodingFork\autosarisari\app\Controllers\Sales.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\CodingFork\\a...', 112, Array)
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sales->editCart()
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#6 {main}
+CRITICAL - 2020-09-15 21:10:13 --> Undefined offset: 0
+#0 E:\CodingFork\autosarisari\app\Controllers\Sales.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\CodingFork\\a...', 112, Array)
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Sales->editCart()
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#6 {main}
+CRITICAL - 2020-09-15 21:25:00 --> syntax error, unexpected '"cart"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')'
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\CodingFork\\a...')
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#9 {main}
+CRITICAL - 2020-09-15 21:54:46 --> syntax error, unexpected '}'
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\CodingFork\\a...')
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#9 {main}

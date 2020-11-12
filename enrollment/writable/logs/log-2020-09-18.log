@@ -1,0 +1,271 @@
+CRITICAL - 2020-09-18 11:06:38 --> Undefined variable: params
+#0 E:\CodingFork\autosarisari\app\Controllers\SalesData.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\CodingFork\\a...', 56, Array)
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\SalesData->viewDailyReport()
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesData))
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#6 {main}
+CRITICAL - 2020-09-18 11:06:56 --> Undefined offset: 0
+#0 E:\CodingFork\autosarisari\app\Controllers\SalesData.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\CodingFork\\a...', 56, Array)
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\SalesData->viewDailyReport()
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesData))
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#6 {main}
+CRITICAL - 2020-09-18 11:15:35 --> syntax error, unexpected '}', expecting ';'
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\CodingFork\\a...')
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Core...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Core...')
+#3 E:\CodingFork\autosarisari\app\Controllers\BaseController.php(47): spl_autoload_call('App\\Models\\Core...')
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#9 {main}
+CRITICAL - 2020-09-18 11:16:29 --> syntax error, unexpected '}', expecting ';'
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\CodingFork\\a...')
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Core...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Core...')
+#3 E:\CodingFork\autosarisari\app\Controllers\BaseController.php(47): spl_autoload_call('App\\Models\\Core...')
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#9 {main}
+CRITICAL - 2020-09-18 12:04:34 --> Illegal parameter data types int and row for operation '='
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\CodingFork\autosarisari\app\Models\CoreModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\CodingFork\autosarisari\app\Controllers\SalesData.php(59): App\Models\CoreModel->getData(Array, 'sales')
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\SalesData->viewDailyReport()
+#7 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesData))
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#11 {main}
+CRITICAL - 2020-09-18 12:04:47 --> Call to a member function getQuery() on null
+#0 E:\CodingFork\autosarisari\app\Controllers\SalesData.php(60): App\Models\CoreModel->getLastQuery()
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\SalesData->viewDailyReport()
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesData))
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#6 {main}
+CRITICAL - 2020-09-18 12:06:35 --> syntax error, unexpected '}'
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\CodingFork\\a...')
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Core...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Core...')
+#3 E:\CodingFork\autosarisari\app\Controllers\BaseController.php(47): spl_autoload_call('App\\Models\\Core...')
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#9 {main}
+CRITICAL - 2020-09-18 12:23:57 --> array_push() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', 'E:\\CodingFork\\a...', 60, Array)
+#1 E:\CodingFork\autosarisari\app\Controllers\SalesData.php(60): array_push(Array)
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\SalesData->viewDailyReport()
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesData))
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#7 {main}
+CRITICAL - 2020-09-18 12:26:32 --> Trying to get property 'date_created' of non-object
+#0 E:\CodingFork\autosarisari\app\Controllers\SalesData.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\CodingFork\\a...', 60, Array)
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\SalesData->viewDailyReport()
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesData))
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#6 {main}
+CRITICAL - 2020-09-18 12:45:45 --> in_array() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'in_array() expe...', 'E:\\CodingFork\\a...', 61, Array)
+#1 E:\CodingFork\autosarisari\app\Controllers\SalesData.php(61): in_array('2020-09-17')
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\SalesData->viewDailyReport()
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesData))
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#7 {main}
+CRITICAL - 2020-09-18 12:46:16 --> syntax error, unexpected ','
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\CodingFork\\a...')
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#9 {main}
+CRITICAL - 2020-09-18 12:57:08 --> syntax error, unexpected ';', expecting ',' or ')'
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\CodingFork\\a...')
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#9 {main}
+CRITICAL - 2020-09-18 13:04:21 --> array_push() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', 'E:\\CodingFork\\a...', 63, Array)
+#1 E:\CodingFork\autosarisari\app\Controllers\SalesData.php(63): array_push(NULL, Array)
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\SalesData->viewDailyReport()
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesData))
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#7 {main}
+CRITICAL - 2020-09-18 13:09:03 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\CodingFork\\a...')
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#9 {main}
+CRITICAL - 2020-09-18 13:09:14 --> syntax error, unexpected '}'
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\CodingFork\\a...')
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#9 {main}
+CRITICAL - 2020-09-18 13:13:39 --> syntax error, unexpected '}'
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\CodingFork\\a...')
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#9 {main}
+CRITICAL - 2020-09-18 13:19:04 --> syntax error, unexpected '}'
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\CodingFork\\a...')
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#9 {main}
+CRITICAL - 2020-09-18 13:38:32 --> array_push() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', 'E:\\CodingFork\\a...', 65, Array)
+#1 E:\CodingFork\autosarisari\app\Controllers\SalesData.php(65): array_push('[]', Array)
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\SalesData->viewDailyReport()
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesData))
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#7 {main}
+CRITICAL - 2020-09-18 13:40:50 --> Illegal offset type
+#0 E:\CodingFork\autosarisari\app\Controllers\SalesData.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'E:\\CodingFork\\a...', 63, Array)
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\SalesData->viewDailyReport()
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesData))
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#6 {main}
+CRITICAL - 2020-09-18 13:42:08 --> array_key_exists(): The first argument should be either a string or an integer
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_key_exist...', 'E:\\CodingFork\\a...', 63, Array)
+#1 E:\CodingFork\autosarisari\app\Controllers\SalesData.php(63): array_key_exists(Array, Array)
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\SalesData->viewDailyReport()
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesData))
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#7 {main}
+CRITICAL - 2020-09-18 13:42:48 --> array_key_exists(): The first argument should be either a string or an integer
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_key_exist...', 'E:\\CodingFork\\a...', 64, Array)
+#1 E:\CodingFork\autosarisari\app\Controllers\SalesData.php(64): array_key_exists(Array, Array)
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\SalesData->viewDailyReport()
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesData))
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#7 {main}
+CRITICAL - 2020-09-18 13:46:43 --> syntax error, unexpected ';', expecting ')'
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\CodingFork\\a...')
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#9 {main}
+CRITICAL - 2020-09-18 13:46:53 --> syntax error, unexpected '}'
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\CodingFork\\a...')
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#9 {main}
+CRITICAL - 2020-09-18 15:03:13 --> syntax error, unexpected ';', expecting ',' or ')'
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\CodingFork\\a...')
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#9 {main}
+CRITICAL - 2020-09-18 15:03:23 --> Undefined variable: hour
+#0 E:\CodingFork\autosarisari\app\Controllers\SalesData.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\CodingFork\\a...', 69, Array)
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\SalesData->viewDailyReport()
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesData))
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#6 {main}
+CRITICAL - 2020-09-18 15:04:47 --> Undefined variable: dataarr
+#0 E:\CodingFork\autosarisari\app\Controllers\SalesData.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\CodingFork\\a...', 70, Array)
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\SalesData->viewDailyReport()
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesData))
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#6 {main}
+CRITICAL - 2020-09-18 15:05:04 --> Undefined index: 2020-09-17
+#0 E:\CodingFork\autosarisari\app\Controllers\SalesData.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\CodingFork\\a...', 70, Array)
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\SalesData->viewDailyReport()
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesData))
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#6 {main}
+CRITICAL - 2020-09-18 15:08:11 --> Undefined variable: hours
+#0 E:\CodingFork\autosarisari\app\Controllers\SalesData.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\CodingFork\\a...', 71, Array)
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\SalesData->viewDailyReport()
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesData))
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#6 {main}

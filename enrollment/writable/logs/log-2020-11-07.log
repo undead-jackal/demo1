@@ -1,0 +1,52 @@
+CRITICAL - 2020-11-07 14:18:24 --> Undefined variable: params1
+#0 E:\testingarea\app\Controllers\Home.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\testingarea\\...', 30, Array)
+#1 E:\testingarea\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->tableTest()
+#2 E:\testingarea\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\testingarea\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\testingarea\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\testingarea\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\testingarea\\...')
+#6 {main}
+CRITICAL - 2020-11-07 22:04:59 --> Undefined index: PATH_INFO
+#0 E:\testingarea\app\Views\welcome_message.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\testingarea\\...', 204, Array)
+#1 E:\testingarea\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\testingarea\\...')
+#2 E:\testingarea\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('welcome_message', Array, true)
+#3 E:\testingarea\app\Controllers\Home.php(10): view('welcome_message')
+#4 E:\testingarea\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 E:\testingarea\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\testingarea\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\testingarea\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\testingarea\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\testingarea\\...')
+#9 {main}
+CRITICAL - 2020-11-07 22:05:48 --> Undefined index: PATH_INFO
+#0 E:\testingarea\app\Views\welcome_message.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\testingarea\\...', 204, Array)
+#1 E:\testingarea\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\testingarea\\...')
+#2 E:\testingarea\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('welcome_message', Array, true)
+#3 E:\testingarea\app\Controllers\Home.php(10): view('welcome_message')
+#4 E:\testingarea\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 E:\testingarea\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\testingarea\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\testingarea\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\testingarea\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\testingarea\\...')
+#9 {main}
+CRITICAL - 2020-11-07 22:54:07 --> Undefined index: PATH_INFO
+#0 E:\testingarea\app\Views\welcome_message.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\testingarea\\...', 204, Array)
+#1 E:\testingarea\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\testingarea\\...')
+#2 E:\testingarea\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('welcome_message', Array, true)
+#3 E:\testingarea\app\Controllers\Home.php(10): view('welcome_message')
+#4 E:\testingarea\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 E:\testingarea\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\testingarea\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\testingarea\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\testingarea\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\testingarea\\...')
+#9 {main}
+CRITICAL - 2020-11-07 22:54:12 --> Undefined index: PATH_INFO
+#0 E:\testingarea\app\Views\welcome_message.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\testingarea\\...', 204, Array)
+#1 E:\testingarea\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\testingarea\\...')
+#2 E:\testingarea\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('welcome_message', Array, true)
+#3 E:\testingarea\app\Controllers\Home.php(10): view('welcome_message')
+#4 E:\testingarea\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 E:\testingarea\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\testingarea\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\testingarea\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\testingarea\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\testingarea\\...')
+#9 {main}

@@ -1,0 +1,48 @@
+CRITICAL - 2020-11-11 07:00:57 --> Unable to connect to the database.
+#0 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/enrollment/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/enrollment/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/enrollment/app/Models/CoreModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/enrollment/app/Controllers/Home.php(10): App\Models\CoreModel->getData(Array, 'student')
+#4 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/enrollment/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/enrollment/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/enrollment/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-11 07:00:57 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/enrollment/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/u16954907...', 100, Array)
+#1 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/enrollment/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/enrollment/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include('/home/u16954907...')
+#3 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/enrollment/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-11 07:01:53 --> Unable to connect to the database.
+#0 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/enrollment/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/enrollment/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/enrollment/app/Models/CoreModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/enrollment/app/Controllers/Home.php(10): App\Models\CoreModel->getData(Array, 'student')
+#4 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/enrollment/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/enrollment/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/enrollment/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-11 07:01:53 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/enrollment/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/u16954907...', 100, Array)
+#1 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/enrollment/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/enrollment/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include('/home/u16954907...')
+#3 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/enrollment/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-11 08:11:17 --> Undefined variable: totalTime
+#0 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/enrollment/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u16954907...', 56, Array)
+#1 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/enrollment/vendor/codeigniter4/framework/system/Debug/Toolbar.php(498): include('/home/u16954907...')
+#2 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/enrollment/vendor/codeigniter4/framework/system/Debug/Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/enrollment/app/Config/Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/enrollment/vendor/codeigniter4/framework/system/Events/Events.php(188): call_user_func(Object(Closure))
+#6 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/enrollment/vendor/codeigniter4/framework/system/CodeIgniter.php(293): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /home/u169549071/domains/codingfork.com/public_html/subdomain-demo1/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

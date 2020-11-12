@@ -1,0 +1,73 @@
+CRITICAL - 2020-09-21 17:54:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `date_created` < IS NULL
+AND `stock_type` = 'out'' at line 3
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `item_id...')
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `item_id...')
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `item_id...')
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `item_id...', Array, false)
+#4 E:\CodingFork\autosarisari\app\Models\CoreModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\CodingFork\autosarisari\app\Controllers\SalesData.php(87): App\Models\CoreModel->getData(Array, 'sales')
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\SalesData->itemNumber()
+#7 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesData))
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#11 {main}
+CRITICAL - 2020-09-21 17:54:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `date_created` < IS NULL
+AND `stock_type` = 'out'' at line 3
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `item_id...')
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `item_id...')
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `item_id...')
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `item_id...', Array, false)
+#4 E:\CodingFork\autosarisari\app\Models\CoreModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\CodingFork\autosarisari\app\Controllers\SalesData.php(87): App\Models\CoreModel->getData(Array, 'sales')
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\SalesData->itemNumber()
+#7 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesData))
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#11 {main}
+CRITICAL - 2020-09-21 17:56:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `date_created` < IS NULL
+AND `stock_type` = 'out'' at line 3
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `item_id...')
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `item_id...')
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `item_id...')
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `item_id...', Array, false)
+#4 E:\CodingFork\autosarisari\app\Models\CoreModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\CodingFork\autosarisari\app\Controllers\SalesData.php(87): App\Models\CoreModel->getData(Array, 'sales')
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\SalesData->itemNumber()
+#7 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesData))
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#11 {main}
+CRITICAL - 2020-09-21 17:57:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `date_created` < IS NULL
+AND `stock_type` = 'out'' at line 3
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `item_id...')
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `item_id...')
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `item_id...')
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `item_id...', Array, false)
+#4 E:\CodingFork\autosarisari\app\Models\CoreModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\CodingFork\autosarisari\app\Controllers\SalesData.php(87): App\Models\CoreModel->getData(Array, 'stock_movement')
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\SalesData->itemNumber()
+#7 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesData))
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#11 {main}
+CRITICAL - 2020-09-21 18:28:44 --> Column 'date_created' in where clause is ambiguous
+#0 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `name`, ...')
+#1 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`, ...')
+#2 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`, ...')
+#3 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `name`, ...', Array, false)
+#4 E:\CodingFork\autosarisari\app\Models\CoreModel.php(45): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\CodingFork\autosarisari\app\Controllers\SalesData.php(92): App\Models\CoreModel->getData(Array, 'stock_movement')
+#6 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\SalesData->itemNumber()
+#7 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SalesData))
+#8 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\CodingFork\autosarisari\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\CodingFork\autosarisari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\a...')
+#11 {main}
